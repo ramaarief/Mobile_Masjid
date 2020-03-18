@@ -1,0 +1,2 @@
+rootProject.name='TugasMasjid'
+include ':app'

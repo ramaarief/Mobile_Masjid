@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/masjid2"
+    tools:context=".PengumumanActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="300sp"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/transparan"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Judul Pengumuman"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/isi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:text="Isi Pengumuman"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Status Aktif : "
+            android:textColor="#fff"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/aktif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Status"
+            android:textSize="20dp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#065d57"
+            android:textColor="#fff"
+            android:text="Kembali ke Menu"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#065d57"
+            android:textColor="#fff"
+            android:text="UPDATE DATA"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

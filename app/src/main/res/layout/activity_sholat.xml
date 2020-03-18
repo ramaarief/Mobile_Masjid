@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SholatActivity"
+    android:orientation="vertical"
+    android:background="#e8e8e8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="#3c854d">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="JADWAL SHOLAT"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/home2">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/jam"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="#138549"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Waktu Shubuh"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/subuh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:hint="Subuh"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#169350"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Waktu Dhuha"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/dhuha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:hint="Dhuha"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#138549"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Waktu Dhuhur"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/dhuhur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:hint="Dhuhur"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#169350"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Waktu Ashar"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/ashar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:hint="Ashar"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#138549"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Waktu Maghrib"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/maghrib"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:hint="Maghrib"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#169350"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Waktu Isya'"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/isya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:hint="Isya'"
+                android:textColor="#fff"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="#065d57"
+                android:textColor="#fff"
+                android:text="Kembali ke Menu"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#065d57"
+                android:textColor="#fff"
+                android:text="UPDATE DATA"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

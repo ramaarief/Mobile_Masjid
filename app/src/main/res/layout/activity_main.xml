@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="MUSLIM.TIME"
+        android:textColor="#229458"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="30dp"
+        android:text="Hallo Rama Arief Permana"
+        android:textColor="#cfc4a8"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Selamat Datang di Aplikasi Muslim.Time"
+        android:textColor="#cfc4a8"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="19:45"
+        android:textColor="#229458"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Sabtu, 25 Februari 2020"
+        android:textColor="#229458" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp">
+
+        <TableRow
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/identitas"
+                android:background= "@drawable/identitas" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/marquee"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:background= "@drawable/marquee" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/slideshow"
+                android:background= "@drawable/slideshow" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:text="Identitas Masjid"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Marquee"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:text="Slideshow"
+                android:layout_gravity="center"
+                android:textColor="#fff"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TableRow
+            android:layout_gravity="center"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/tagline"
+                android:background= "@drawable/tagline" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/pengumuman"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:background= "@drawable/pengumuman" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/jamSholat"
+                android:background= "@drawable/jadwal" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:text="Tagline Masjid"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Pengumuman"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:text="Jam Sholat"
+                android:layout_gravity="center"
+                android:textColor="#fff"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+    <!--
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300sp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/jamSholat"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:text="Jam Sholat"/>
+        <Button
+            android:id="@+id/identitas"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:text="Identitas Masjid"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/marquee"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:text="Marquee"/>
+        <Button
+            android:id="@+id/pengumuman"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="7dp"
+            android:background="#fff"
+            android:text="Pengumuman"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/slideshow"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:text="SlideShow"/>
+        <Button
+            android:id="@+id/tagline"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:text="Tagline"/>
+    </LinearLayout>
+    -->
+
+</LinearLayout>

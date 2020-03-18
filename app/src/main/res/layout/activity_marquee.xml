@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/masjid"
+    tools:context=".MarqueeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/isi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:hint="Isi Marquee"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#065d57"
+            android:textColor="#fff"
+            android:text="Kembali ke Menu"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#065d57"
+            android:textColor="#fff"
+            android:text="UPDATE DATA"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
